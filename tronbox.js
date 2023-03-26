@@ -4,7 +4,7 @@ module.exports = {
   networks: {
     mainnet: {
       // Don't put your private key here:
-      privateKey: process.env.PRIVATE_KEY_MAINNET,
+      privateKey: "da146374a75310b9666e834ee4ad0866d6f4035967bfc76217c5a495fff9f0d0",
       userFeePercentage: 100,
       feeLimit: 1000 * 1e6,
       fullHost: 'https://api.trongrid.io',
